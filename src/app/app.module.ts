@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AddEditUserComponent } from './component/add-edit-user/add-edit-user.component';
 import { UserComponent } from './component/user/user.component';
-import { FormGroup, FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {  FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTableModule } from '@angular/material/table';
 
@@ -21,7 +21,7 @@ import { MatTableModule } from '@angular/material/table';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FormGroup, FormControl, FormsModule, ReactiveFormsModule,MatFormFieldModule,MatTableModule 
+    FormsModule, ReactiveFormsModule,MatFormFieldModule,MatTableModule 
      
   ],
   providers: [],
