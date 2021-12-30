@@ -10,7 +10,7 @@ import { UserService } from '../../services/user.service';
   styleUrls: ['./add-edit-user.component.scss']
 })
 export class AddEditUserComponent implements OnInit {
-  addUserForm: FormGroup;
+  addUserForm!: FormGroup;
   constructor(
     public dialogRef: MatDialogRef<AddEditUserComponent>, 
     public userService: UserService,

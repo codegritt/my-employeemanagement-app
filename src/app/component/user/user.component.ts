@@ -12,7 +12,7 @@ import { UserService } from '../../services/user.service';
 })
 export class UserComponent implements OnInit {
   displayedColumns: string[] = ['Id','First Name', 'Last Name', 'Email', 'Contact', 'Action'];
-  userDetails!: MatTableDataSource<Element>;
+  userDetails!: MatTableDataSource<any>;
 
   constructor(
     public dialog: MatDialog,
