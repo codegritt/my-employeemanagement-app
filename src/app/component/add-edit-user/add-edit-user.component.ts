@@ -8,7 +8,7 @@ import { UserService } from '../../services/user.service';
 @Component({
   selector: 'app-add-edit-user',
   templateUrl: './add-edit-user.component.html',
-  styleUrls: ['./add-edit-user.component.scss']
+  styleUrls: ['./add-edit-user.component.css']
 })
 export class AddEditUserComponent implements OnInit {
   addUserForm!: FormGroup;
