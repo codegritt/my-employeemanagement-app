@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AddEditUserComponent } from './component/add-edit-user/add-edit-user.component';
 import { UserComponent } from './component/user/user.component';
+import { FormGroup, FormControl, FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { UserComponent } from './component/user/user.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormGroup, FormControl, FormsModule, ReactiveFormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
